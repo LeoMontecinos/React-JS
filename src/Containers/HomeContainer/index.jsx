@@ -5,10 +5,12 @@ const ButtonComponent = () => {
 }
 export const HomeContainer = () => {
 
-    const carrito = [];
+   const carrito = [];
     return (
+        <>
         <header>
-           <NavbarComponent cart={carrito} Boton={ButtonComponent}/>
+          <NavbarComponent cart={carrito} Boton={ButtonComponent}/>
         </header>
+        </>
     )
 }

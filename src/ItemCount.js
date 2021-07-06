@@ -1,4 +1,5 @@
 import { useState } from "react";
+import React from 'react';
 
 export const HomeContainer = () => {
    const [contador, setContador] = useState(0);
@@ -18,3 +19,5 @@ export const HomeContainer = () => {
         </>
     )
 }
+
+export default itemCount

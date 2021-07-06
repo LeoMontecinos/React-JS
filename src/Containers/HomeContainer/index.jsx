@@ -1,4 +1,5 @@
 import { NavbarComponent } from "../../Component/NavbarComponents";
+import ItemCount from "../../Component/HomeContainer";
 
 const ButtonComponent = () => {
     return <button>Registrate</button>

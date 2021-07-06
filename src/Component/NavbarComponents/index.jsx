@@ -36,6 +36,9 @@ export const NavbarComponent = ({cart,Boton}) => {
       <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
       <button className="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
      </div> 
+     <div className="navbar_cart">
+       <link to={"/cart"}><RiShoppingCartLine/></link>
+     </div>
     </form>
   </div>
 </nav>
